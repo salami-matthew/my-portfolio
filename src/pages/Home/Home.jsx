@@ -37,7 +37,7 @@ const Home = () => {
         </div>
 
         <div className='avatar-img'>
-          <img className='avatar' src='../src/assets/coding.gif' alt='code-gif' />
+          <img className='avatar' src='./coding.gif' alt='code-gif' />
         </div>
       </div>
 
