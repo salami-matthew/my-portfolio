@@ -3,7 +3,8 @@ footer{
   height: 70px;
   display: grid;
   place-items: center;
-  background-color: #19376D;;
+  background-color: #19376D;
+  color: white;
   padding: 15px;
   /* position: sticky;
   bottom: 0; */

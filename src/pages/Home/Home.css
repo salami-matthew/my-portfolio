@@ -8,10 +8,11 @@
 .skills{
   background-color: white;
   width: 100%;
-  padding: 8rem 7%;
+  padding: 2rem 7% 6rem;
   color: #222831;
-  text-align: left;
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
   flex-direction: column;
   gap: 40px;
 }
@@ -34,6 +35,8 @@ ol{
   align-items: center;
   justify-content: space-between;
   padding: 4.375rem 7%;
+  color: white;
+  background-color: #222831;
 }
 
 .home-content{
@@ -79,12 +82,14 @@ p.about-me{
   animation-delay: .7s;
 }
 
-.avatar-img{
-  padding: 0 20px;
+.avatar-container{
+  padding: 0 0 20px 0;
 }
 
 img.avatar{
-  width: 20rem;
+  /* width: 20rem; */
+  float: right;
+  width: 80%;
   opacity: 0;
   animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
   animation-delay: 1s, 2s;
@@ -131,20 +136,40 @@ a.contact-btn{
   animation-delay: 1s;
 }
 
+
+/* MEDIA QUERIES */
+
 @media only screen and (max-width: 800px) {
   .home{
     flex-direction: column;
   }
 
-  .home-content h3{
-    font-size: 1.5rem;
-    font-weight: 700;   
+  .upper-home{
+    padding: 4.375rem 5%;
+  }
+
+  .home h3{
+    font-size: 1.35rem;
+    font-weight: 700; 
+  }
+
+  .home-content h3:nth-of-type(2){
+    height: 60px;
+  }
+
+  .home h1{
+    font-size: 2.8rem;   
+  }
+
+  p.about-me{
+    margin-top: 1rem;
   }
 
 } 
 
-@media (max-width:1000px){
+@media (max-width:700px){
   img.avatar{
     display: none;
   }
+
 }

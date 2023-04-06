@@ -15,8 +15,8 @@
 }
 
 body{
-  background-color: #222831;
-  color: white;
+  background-color: white;
+  color: var(--dark-medium-blue);
 }
 
 a{
