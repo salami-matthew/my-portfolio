@@ -19,9 +19,9 @@ const Navbar = () => {
   return (
     <nav>
       <div className={isClicked === false ? "links" : "links mobile-links"}>
-        <a style={{ "--i": 1 }}><Link to={"/"}>Home</Link></a>
-        <a style={{ "--i": 2 }}><Link to={"/projects"}>Projects</Link></a>
-        <a style={{ "--i": 3 }}><Link to={"/experience"}>Experience</Link></a>
+        <p style={{ "--i": 1 }}><Link to={"/"}>Home</Link></p>
+        <p style={{ "--i": 2 }}><Link to={"/projects"}>Projects</Link></p>
+        <p style={{ "--i": 3 }}><Link to={"/experience"}>Experience</Link></p>
       </div>
 
       <div className='toggle-button-container'>

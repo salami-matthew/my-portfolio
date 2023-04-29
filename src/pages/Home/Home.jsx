@@ -15,7 +15,7 @@ const Home = () => {
           <h1>Salami Matthew</h1>
           <h3>And I'm a <span>
             <Typewriter
-              words={['Frontend Developer', 'Mechanical Engineer', 'Audio Engineer']}
+              words={['Full-stack Developer', 'Mechanical Engineer', 'Audio Engineer']}
               loop={0}
               cursor
               cursorStyle='_'
@@ -50,7 +50,7 @@ const Home = () => {
           </li>
           <li className='item'>
             <h3>Back-End</h3>
-            <span>NodeJS, Express</span>
+            <span>NodeJS, Express, MongoDB, Firebase</span>
           </li>
         </ol>
       </div>
