@@ -29,11 +29,11 @@ const Home = () => {
           <p className='about-me'>I'm a mechanical engineer, a react developer and an audio engineer. Click the button below to download my CV and feel free to contact me for work or more information.</p>
 
           <div className='social-icons'>
-            <a href='https://www.instagram.com/salamiitheking/' style={{ "--i": 4 }}><InstagramIcon /></a>
-            <a href='https://twitter.com/salamiitheking' style={{ "--i": 5 }}><TwitterIcon /></a>
-            <a href='https://github.com/salami-matthew' style={{ "--i": 6 }}><GitHubIcon /></a>
+            <a target='_blank' href='https://www.instagram.com/salamiitheking/' style={{ "--i": 4 }}><InstagramIcon /></a>
+            <a target='_blank' href='https://twitter.com/salamiitheking' style={{ "--i": 5 }}><TwitterIcon /></a>
+            <a target='_blank' href='https://github.com/salami-matthew' style={{ "--i": 6 }}><GitHubIcon /></a>
           </div>
-          <a href='#' className='contact-btn'>Download CV</a>
+          <a target='_blank' href='https://drive.google.com/file/d/1NKKBdS16mKyMUo-iakIGzkKyWxY20jfN/view' className='contact-btn'>Download CV</a>
         </div>
 
         <div className='avatar-container'>
