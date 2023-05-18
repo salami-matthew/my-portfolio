@@ -8,12 +8,28 @@ import CodeIcon from '@mui/icons-material/Code';
 import EngineeringIcon from '@mui/icons-material/Engineering';
 
 
+
 function Experience() {
   return (
     <div className='experience'>
       <VerticalTimeline lineColor="#222831">
 
         {/* Work Experience */}
+        {/* lighthall */}
+        <VerticalTimelineElement className='vertical-timeline-element--education'
+          date='2023'
+          iconStyle={{
+            background: "#A5D7E8", color:
+              "white"
+          }}
+          icon={<CodeIcon />}>
+          <h3 className='vertical-timeline-element-title'>
+            Finalist at Lighthall Software Engineering Super League (SESL1)</h3>
+          <p>Developed various projects and gained experience working remote with a team - Hangman game, Full-stack todo app, Grub roulette, Health Guardian</p>
+        </VerticalTimelineElement>
+
+
+
         {/* Ministry of works */}
         <VerticalTimelineElement className='vertical-timeline-element--education'
           date='2022-present'
