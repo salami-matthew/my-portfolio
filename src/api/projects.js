@@ -6,10 +6,18 @@ import nft from "../assets/nft.png";
 import order from "../assets/order.png";
 import social from "../assets/social.png";
 import product from "../assets/product.png";
+import foodie from "../assets/foodie.png";
 
 
 
 export const projects = [
+  {
+    name: "Foodie App",
+    description: "A simple food ordering app with cart functionality",
+    stack: "ReactJS",
+    image: foodie,
+    url: "https://foodie-app-two.vercel.app/"
+  },
   {
     name: "Health Guardian",
     description: "A personalized first aid app with authentication and other key features",
